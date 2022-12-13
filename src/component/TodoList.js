@@ -1,5 +1,5 @@
 import './TodoList.css';
-// import {NavLink} from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 
 // Todo 리스트
 const TodoList = ({todos, setTodos}) => {
@@ -28,6 +28,7 @@ const TodoList = ({todos, setTodos}) => {
       if (todo.isDone === trueOrFalse) {
         resultDone.push(
           <div className='todo-container' key={todo.id}>
+            <NavLink to={`${todo.id}`}>상세보기</NavLink>
             <h2 className='todo-title'>{todo.title}</h2>
             <div className='todo-context'>{todo.context}</div>
             <div className='buttons'>

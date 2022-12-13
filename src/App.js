@@ -4,7 +4,7 @@ import Header from './component/Header';
 import Form from './component/Form';
 import TodoList from './component/TodoList';
 import {v4 as uuidv4} from 'uuid';
-import {Route} from 'react-router-dom';
+import {Route, Switch} from 'react-router-dom';
 import Details from './component/pages/Details';
 
 function App() {
@@ -26,14 +26,20 @@ function App() {
     },
   ]);
   return (
-    <main className='main'>
-      <Route path='/details'>
-        <Details />
-      </Route>
-      <Header />
-      <Form inputTitle={inputTitle} setInputTitle={setInputTitle} input={input} setInput={setInput} todos={todos} setTodos={setTodos} />
-      <TodoList todos={todos} setTodos={setTodos} />
-    </main>
+    <div>
+      <main className='main'>
+        <Switch>
+          <Route exact path='/'>
+            <Header />
+            <Form inputTitle={inputTitle} setInputTitle={setInputTitle} input={input} setInput={setInput} todos={todos} setTodos={setTodos} />
+            <TodoList todos={todos} setTodos={setTodos} />
+          </Route>
+          <Route path='/:id'>
+            <Details todos={todos} />
+          </Route>
+        </Switch>
+      </main>
+    </div>
   );
 }
 
