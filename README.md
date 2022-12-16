@@ -4,10 +4,10 @@
 <img src="https://user-images.githubusercontent.com/29205152/208035136-1868a013-570b-4850-bc48-c164ad65d792.gif" alt="GIF" width="70%">
  -->
 ## 📖 Table of Contents
-- [📝 About The Project](#-about-the-project)
+- [📝 About The Project](#-about-the-project-)
 - [Project Link](#project-link)
 - [Directory Layout](#directory-layout)
-- [Setting Up](#setting-up)
+- [🎯 Setting Up](#-setting-up-)
 <!-- <ul>
   <li><a href="#about-the-project">📝 About The Project</a></li>
   <li><a href="#skills-stack">💡 Skills Stack</a></li>
@@ -80,6 +80,8 @@ https://react-to-do-list-alpha.vercel.app/
 
 <!-- Setting Up -->
 <!-- <h2 id="setting-up">🎯 Setting Up</h2> -->
+## 🎯 Setting Up(#-table-of-contents)
+
 ```sh
 npx npx create-react-app todo-list-redux --template redux
 cd todo-list-redux
