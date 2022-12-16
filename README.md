@@ -54,10 +54,10 @@ https://react-to-do-list-alpha.vercel.app/
 
  ## 📍 개발 환경 설정
 ```sh
-npx create-react-app React--To-do-list
+npx npx create-react-app todo-list-redux --template redux
 ```
 ```sh
-cd React--To-do-list
+cd todo-list-redux
 ```
 ```sh
 npm start
