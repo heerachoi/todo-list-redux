@@ -8,6 +8,8 @@
 - [Project Link](#project-link)
 - [Directory Layout](#directory-layout)
 - [🎯 Setting Up](#-setting-up-)
+- [❓ Why?](#-why-)
+- [✨ Features](#-features-)
 <!-- <ul>
   <li><a href="#about-the-project">📝 About The Project</a></li>
   <li><a href="#skills-stack">💡 Skills Stack</a></li>
@@ -87,3 +89,5 @@ npx npx create-react-app todo-list-redux --template redux
 cd todo-list-redux
 npm start
 ```
+
+## ❓ Why? [🔝](#-table-of-contents)
