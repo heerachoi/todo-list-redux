@@ -1,24 +1,31 @@
 <h1 align="center"> 📌 Todolist with Redux </h1> <br>
 
-![Todolist-redux](https://user-images.githubusercontent.com/29205152/208035136-1868a013-570b-4850-bc48-c164ad65d792.gif)
-
 <br/>
 
-# 📍 목차
-[1.개발을 하고 싶어요](#개발을-하고-싶어요)
-[2.코딩을 잘하고 싶어요](#coding을-잘하고-싶어요)
+## ⚡️ Table of Contents
+- [Introduction](#introduction)
+- [Project Link](#project-link)
+- [Directory Layout](#directory-layout)
+- [Setting Up](#setting-up)
 
-## 📍 
+
+## 💡 Introduction
+리덕스를 활용한 할일들을 추가, 삭제, 및 상세보기가 가능합니다.
+
 <img alt="React" src ="https://img.shields.io/badge/react-282C34.svg?&style=for-the-badge&logo=react&logoColor=61DAFB"/> <img alt="Styled Components" src ="https://img.shields.io/badge/styled components-282C34.svg?&style=for-the-badge&logo=styledcomponents&logoColor=DB7093"/> 
 
+<p align="center">
+  ![Todolist-redux](https://user-images.githubusercontent.com/29205152/208035136-1868a013-570b-4850-bc48-c164ad65d792.gif)
+</p>
+
 <br/>
 
-## 📍 프로젝트 링크
+## 📍 Project Link
 https://react-to-do-list-alpha.vercel.app/
 
 <br/>
 
-## 🗂 디렉토리 구조
+## 🗂 Directory Layout
 ```
 📦src
  ┣ 📂app
@@ -58,15 +65,9 @@ https://react-to-do-list-alpha.vercel.app/
  
 <br/>
 
- ## 📍 개발 환경 설정
+ ## 🎯 Setting Up
 ```sh
 npx npx create-react-app todo-list-redux --template redux
-```
-```sh
 cd todo-list-redux
-```
-```sh
 npm start
 ```
-
-🎯
