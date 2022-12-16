@@ -1,8 +1,14 @@
-# 📌 Todolist with Redux
+<h1 align="center"> 📌 Todolist with Redux </h1> <br>
+
 ![Todolist-redux](https://user-images.githubusercontent.com/29205152/208035136-1868a013-570b-4850-bc48-c164ad65d792.gif)
 
 <br/>
 
+# 📍 목차
+[1.개발을 하고 싶어요](#개발을-하고-싶어요)
+[2.코딩을 잘하고 싶어요](#coding을-잘하고-싶어요)
+
+## 📍 
 <img alt="React" src ="https://img.shields.io/badge/react-282C34.svg?&style=for-the-badge&logo=react&logoColor=61DAFB"/> <img alt="Styled Components" src ="https://img.shields.io/badge/styled components-282C34.svg?&style=for-the-badge&logo=styledcomponents&logoColor=DB7093"/> 
 
 <br/>
@@ -62,3 +68,5 @@ cd todo-list-redux
 ```sh
 npm start
 ```
+
+🎯
