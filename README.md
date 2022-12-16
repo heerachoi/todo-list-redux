@@ -20,7 +20,7 @@
 
 <!-- Introduction -->
 <!-- <h2 id="about-the-project">📝 About The Project</h2> -->
-## 📝 About The Project(#-table-of-contents)
+## 📝 About The Project (#-table-of-contents)
 리덕스를 활용한 할일들을 추가, 삭제, 및 상세보기가 가능합니다.
 
 </br>
@@ -80,7 +80,7 @@ https://react-to-do-list-alpha.vercel.app/
 
 <!-- Setting Up -->
 <!-- <h2 id="setting-up">🎯 Setting Up</h2> -->
-## 🎯 Setting Up(#-table-of-contents)
+## 🎯 Setting Up (#-table-of-contents)
 
 ```sh
 npx npx create-react-app todo-list-redux --template redux
