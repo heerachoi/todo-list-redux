@@ -6,8 +6,9 @@
 
 ## 📖 Table of Contents
 - [📝 About The Project](#-about-the-project-)
-- [Project Link](#project-link)
-- [Directory Layout](#directory-layout)
+- [💡 Skills Stack](#-skills-stack-)
+- [📍 Project Link](#project-link)
+- [🗂 Directory Layout](#directory-layout)
 - [🎯 Setting Up](#-setting-up-)
 <!-- <ul>
   <li><a href="#about-the-project">📝 About The Project</a></li>
