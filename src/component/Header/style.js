@@ -2,9 +2,9 @@ import styled from 'styled-components';
 
 export const HeaderContainer = styled.div`
   font-weight: bold;
-  font-size: 23px;
+  font-size: 20px;
   text-align: center;
-  padding: 30px;
+  padding: 20px;
   background-color: #5b5ee1;
   color: white;
 `;

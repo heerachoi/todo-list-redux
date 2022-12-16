@@ -5,29 +5,29 @@ export const TodoForm = styled.div`
   justify-content: center;
   background-color: #eee;
   border-radius: 12px;
-  padding: 40px;
+  padding: 20px;
   margin: 0 auto;
 `;
 
 export const InputGroup = styled.div`
   display: flex;
   flex-direction: row;
-  gap: 25px;
+  gap: 13px;
   align-items: center;
 `;
 
 export const Title = styled.div`
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 700;
 `;
 
 export const TaskInput = styled.input`
   border: none;
   border-radius: 12px;
-  height: 30px;
+  height: 25px;
   padding: 0 12px;
-  width: 400px;
-  font-size: 16px;
+  width: 300px;
+  font-size: 14px;
 `;
 
 export const ButtonAdd = styled.button`
@@ -36,10 +36,10 @@ export const ButtonAdd = styled.button`
   border-radius: 50%;
   color: #fff;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 14px;
   text-align: center;
   justify-content: center;
-  padding: 13px 20px;
+  padding: 9px 14px;
   cursor: pointer;
   &:hover {
     background-color: #fb484a;
