@@ -17,17 +17,17 @@ export const InputGroup = styled.div`
 `;
 
 export const Title = styled.div`
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 700;
 `;
 
 export const TaskInput = styled.input`
   border: none;
   border-radius: 12px;
-  height: 50px;
+  height: 30px;
   padding: 0 12px;
   width: 400px;
-  font-size: 20px;
+  font-size: 16px;
 `;
 
 export const ButtonAdd = styled.button`
@@ -36,10 +36,10 @@ export const ButtonAdd = styled.button`
   border-radius: 50%;
   color: #fff;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 16px;
   text-align: center;
   justify-content: center;
-  padding: 19px 26px;
+  padding: 13px 20px;
   cursor: pointer;
   &:hover {
     background-color: #fb484a;

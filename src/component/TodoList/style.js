@@ -8,7 +8,7 @@ export const ListTitle = styled.h2`
   background-color: #8385f6;
   text-align: center;
   padding: 7px 0px;
-  font-size: 18px;
+  font-size: 16px;
   color: white;
   letter-spacing: 15px;
   border-radius: 20px;

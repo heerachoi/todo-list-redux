@@ -14,7 +14,7 @@ export const TodoTitle = styled.h2`
   display: flex;
   flex-wrap: wrap;
   gap: 12px;
-  font-size: 20px;
+  font-size: 16px;
   display: inline-block;
   width: 380px;
   white-space: nowrap;

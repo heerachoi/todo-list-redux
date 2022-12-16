@@ -53,5 +53,5 @@ export const Line = styled.div`
 `;
 
 export const TodoContext = styled.div`
-  font-size: 20px;
+  font-size: 16px;
 `;
