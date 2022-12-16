@@ -90,4 +90,4 @@ cd todo-list-redux
 npm start
 ```
 
-## ❓ Why? (#-table-of-contents)
+## ❓ Why? 
