@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const HeaderContainer = styled.div`
   font-weight: bold;
-  font-size: 20px;
+  font-size: 35px;
   text-align: center;
   border: 1px solid #ddd;
   padding: 30px;

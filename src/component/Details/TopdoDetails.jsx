@@ -1,8 +1,9 @@
-import {useNavigate} from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 import './Details.css';
+import { Wrapper, DetailsContainer, DetailsTop, ReturnButton, DetailsBottom, InputTitle, Line, TodoContext } from './style.js';
 
-const TodoDetails = ({id, inputTitle, input, isDone}) => {
+const TodoDetails = ({ id, inputTitle, input, isDone }) => {
   const navigate = useNavigate();
 
   // 이전 페이지 이동 핸들러
@@ -11,34 +12,20 @@ const TodoDetails = ({id, inputTitle, input, isDone}) => {
   };
 
   return (
-    <div className='wrapper'>
-      <div className='details_container'>
-        <div className='details_top'>
+    <Wrapper>
+      <DetailsContainer>
+        <DetailsTop>
           <div>ID : {id}</div>
-          <button onClick={previousPageHanlder} className='return_button' />
-        </div>
-        <div className='details_bottom'>
-          <h2>{inputTitle}</h2>
-          <p className='todo-context'>{input}</p>
-        </div>
-      </div>
-    </div>
+          <ReturnButton onClick={previousPageHanlder}>이전으로</ReturnButton>
+        </DetailsTop>
+        <DetailsBottom>
+          <InputTitle>{inputTitle}</InputTitle>
+          <Line></Line>
+          <TodoContext>{input}</TodoContext>
+        </DetailsBottom>
+      </DetailsContainer>
+    </Wrapper>
   );
 };
 
 export default TodoDetails;
-
-// <div className='wrapper'>
-//   <div className='details_container'>
-//     <div className='details_top'>
-//       <div>ID : {id}</div>
-//       <button className='return_button'>
-//         <NavLink to='/'>이전으로</NavLink>
-//       </button>
-//     </div>
-//     <div className='details_bottom'>
-//       <h2>{todoList[0].inputTitle}</h2>
-//       <p className='todo-context'>{todoList[0].input}</p>
-//     </div>
-//   </div>
-// </div>;

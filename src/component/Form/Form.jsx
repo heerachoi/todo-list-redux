@@ -2,9 +2,8 @@ import { v4 as uuidv4 } from 'uuid';
 import { useState } from 'react';
 import { useDispatch } from 'react-redux';
 
-import './Form.css';
 import { addTodo } from '../../redux/modules/todos.js';
-import { TodoForm } from './style.js';
+import { TodoForm, InputGroup, ButtonAdd, TaskInput, Title } from './style.js';
 
 const Form = () => {
   const [inputTitle, setInputTitle] = useState('');
@@ -45,15 +44,13 @@ const Form = () => {
   return (
     <TodoForm>
       <form onSubmit={onFormSubmit}>
-        <div className='input-group'>
-          <div className='title'>제목</div>
-          <input type='text' className='task-input' value={inputTitle} name='text' onChange={onInputTitleChange} />
-          <div className='title'>내용</div>
-          <input type='text' className='task-input' value={input} name='text' onChange={onInputChange} />
-        </div>
-        <button className='button-add' type='submit'>
-          +
-        </button>
+        <InputGroup>
+          <Title>제목</Title>
+          <TaskInput type='text' value={inputTitle} name='text' onChange={onInputTitleChange} />
+          <Title>내용</Title>
+          <TaskInput type='text' value={input} name='text' onChange={onInputChange} />
+          <ButtonAdd type='submit'>+</ButtonAdd>
+        </InputGroup>
       </form>
     </TodoForm>
   );
