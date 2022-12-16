@@ -1,20 +1,20 @@
-<h1 align="center"> Todolist with Redux </h1> 
+<!-- <h1 align="center"> Todolist with Redux </h1> 
 <h5 align="center"> Project Duration: 2022.12.13 - 12.15</h5>
 
 <img src="https://user-images.githubusercontent.com/29205152/208035136-1868a013-570b-4850-bc48-c164ad65d792.gif" alt="GIF" width="70%">
-
+ -->
 ## 📖 Table of Contents
 - [📝 About The Project](#-about-the-project)
 - [Project Link](#project-link)
 - [Directory Layout](#directory-layout)
 - [Setting Up](#setting-up)
-<ul>
-<!--   <li><a href="#about-the-project">📝 About The Project</a></li> -->
+<!-- <ul>
+  <li><a href="#about-the-project">📝 About The Project</a></li>
   <li><a href="#skills-stack">💡 Skills Stack</a></li>
   <li><a href="##project-link">📍 Project Link</a></li>
   <li><a href="#directory-layout">🗂 Directory Layout</a></li>
   <li><a href="#getting-started">🎯 Getting Started</a></li>
-</ul>
+</ul> -->
 
 </br>
 
@@ -26,19 +26,19 @@
 </br>
 
 <!-- Skills Stack -->
-<h2 id="skills-stack">💡 Skills Stack</h2>
+<!-- <h2 id="skills-stack">💡 Skills Stack</h2>
 <img alt="React" src ="https://img.shields.io/badge/react-282C34.svg?&style=for-the-badge&logo=react&logoColor=61DAFB"/> <img alt="Styled Components" src ="https://img.shields.io/badge/styled components-282C34.svg?&style=for-the-badge&logo=styledcomponents&logoColor=DB7093"/> 
 
-</br>
+</br> -->
 
 <!-- Project Link -->
-<h2 id="project-link">📍 Project Link</h2>
+<!-- <h2 id="project-link">📍 Project Link</h2>
 https://react-to-do-list-alpha.vercel.app/
 
-</br>
+</br> -->
 
 <!-- Directory Layout -->
-<h2 id="directory-layout">🗂 Directory Layout</h2>
+<!-- <h2 id="directory-layout">🗂 Directory Layout</h2> -->
 ```
 📦src
  ┣ 📂app
@@ -79,7 +79,7 @@ https://react-to-do-list-alpha.vercel.app/
 </br>
 
 <!-- Setting Up -->
-<h2 id="setting-up">🎯 Setting Up</h2>
+<!-- <h2 id="setting-up">🎯 Setting Up</h2> -->
 ```sh
 npx npx create-react-app todo-list-redux --template redux
 cd todo-list-redux
