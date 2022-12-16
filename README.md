@@ -1,15 +1,15 @@
 <h1 align="center"> Todolist with Redux </h1> 
 <h5 align="center"> Project Duration: 2022.12.13 - 12.15</h5>
-
+<p align="center"> 
 ![Todolist-redux](https://user-images.githubusercontent.com/29205152/208035136-1868a013-570b-4850-bc48-c164ad65d792.gif)
-
+</p> 
 
 ## 📖 Table of Contents
-<ol>
+<ul>
  <li><a href="#introduction">Introduction</a></li>
   <li><a href="#int">💡 Introduction</a></li>
 
-</ol>
+</ul>
 - [Introduction](#introduction)
 - [Project Link](#project-link)
 - [Directory Layout](#directory-layout)
