@@ -16,14 +16,14 @@
   <li><a href="#getting-started">🎯 Getting Started</a></li>
 </ul> -->
 
-</br>
-
+<!-- </br>
+ -->
 <!-- Introduction -->
 <!-- <h2 id="about-the-project">📝 About The Project</h2> -->
 ## 📝 About The Project (#-table-of-contents)
 리덕스를 활용한 할일들을 추가, 삭제, 및 상세보기가 가능합니다.
 
-</br>
+<!-- </br> -->
 
 <!-- Skills Stack -->
 <!-- <h2 id="skills-stack">💡 Skills Stack</h2>
