@@ -1,7 +1,8 @@
 <h1 align="center"> Todolist with Redux </h1> 
 <h5 align="center"> Project Duration: 2022.12.13 - 12.15</h5>
-
+<p align="center"> 
 <img src="https://user-images.githubusercontent.com/29205152/208035136-1868a013-570b-4850-bc48-c164ad65d792.gif" alt="GIF" width="70%">
+</p>
 
 ## 📖 Table of Contents
 - [📝 About The Project](#-about-the-project-)
