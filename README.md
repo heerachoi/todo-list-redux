@@ -3,6 +3,7 @@
 <p align="center"> 
 ![Todolist-redux](https://user-images.githubusercontent.com/29205152/208035136-1868a013-570b-4850-bc48-c164ad65d792.gif)
 </p> 
+<img src="https://user-images.githubusercontent.com/29205152/208035136-1868a013-570b-4850-bc48-c164ad65d792.gif" alt="GIF" width="100%">
 
 ## 📖 Table of Contents
 <ul>
