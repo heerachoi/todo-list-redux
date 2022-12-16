@@ -2,11 +2,10 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
 export const TodoContainer = styled.section`
-  /* border: 4px solid #8385f6; */
   border-radius: 12px;
-  padding: 0px 25px;
+  padding: 15px 25px;
   width: 373px;
-  height: 220px;
+  height: 180px;
   margin: 20px;
   background-color: #d2d3fb;
 `;
@@ -15,7 +14,7 @@ export const TodoTitle = styled.h2`
   display: flex;
   flex-wrap: wrap;
   gap: 12px;
-  font-size: 30px;
+  font-size: 20px;
   display: inline-block;
   width: 380px;
   white-space: nowrap;
@@ -24,7 +23,7 @@ export const TodoTitle = styled.h2`
 `;
 
 export const TodoContext = styled.div`
-  font-size: 20px;
+  font-size: 16px;
   height: 35px;
   margin-bottom: 17px;
   display: inline-block;
@@ -38,6 +37,7 @@ export const TodoListButtons = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 20px;
 `;
 
 export const ButtonWrapper = styled.div`

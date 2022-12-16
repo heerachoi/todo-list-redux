@@ -1,6 +1,4 @@
-import { Link } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
-import Buttons from './Buttons';
 import { toggleDone, deleteTodo } from '../../redux/modules/todos.js';
 import { TodoContainer, TodoContext, TodoTitle, TodoListButtons, ButtonWrapper, DetailsButton, DeleteButton, DoneButton } from './style';
 

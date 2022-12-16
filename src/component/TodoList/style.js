@@ -4,11 +4,14 @@ export const TodoListWarp = styled.section`
   padding: 0 24px;
 `;
 
-export const TodoContainer = styled.section`
-  border: 4px solid teal;
-  border-radius: 12px;
-  padding: 12px 24px 24px;
-  width: 270px;
+export const ListTitle = styled.h2`
+  background-color: #8385f6;
+  text-align: center;
+  padding: 7px 0px;
+  font-size: 18px;
+  color: white;
+  letter-spacing: 15px;
+  border-radius: 20px;
 `;
 
 export const TodoItemWrap = styled.section`

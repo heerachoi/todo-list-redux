@@ -52,4 +52,6 @@ export const Line = styled.div`
   border-radius: 20px;
 `;
 
-export const TodoContext = styled.div``;
+export const TodoContext = styled.div`
+  font-size: 20px;
+`;

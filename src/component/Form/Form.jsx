@@ -35,10 +35,8 @@ const Form = () => {
         isDone: false,
       })
     );
-    // setTodos([...todos, {id: uuidv4(), title: inputTitle, context: input, isDone: false}]);
     setInputTitle('');
     setInput('');
-    // return true;
   };
 
   return (

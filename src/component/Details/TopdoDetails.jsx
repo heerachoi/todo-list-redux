@@ -1,6 +1,5 @@
 import { useNavigate } from 'react-router-dom';
 
-import './Details.css';
 import { Wrapper, DetailsContainer, DetailsTop, ReturnButton, DetailsBottom, InputTitle, Line, TodoContext } from './style.js';
 
 const TodoDetails = ({ id, inputTitle, input, isDone }) => {
@@ -15,7 +14,7 @@ const TodoDetails = ({ id, inputTitle, input, isDone }) => {
     <Wrapper>
       <DetailsContainer>
         <DetailsTop>
-          <div>ID : {id}</div>
+          ID : {id}
           <ReturnButton onClick={previousPageHanlder}>이전으로</ReturnButton>
         </DetailsTop>
         <DetailsBottom>
