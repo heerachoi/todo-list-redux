@@ -1,9 +1,15 @@
 # 📓 Todolist with Redux
 
-#
+<img alt="React" src ="https://img.shields.io/badge/react-282C34.svg?&style=for-the-badge&logo=react&logoColor=61DAFB"/> <img alt="Styled Components" src ="https://img.shields.io/badge/styled components-282C34.svg?&style=for-the-badge&logo=styledcomponents&logoColor=DB7093"/> 
 
-<img alt="React" src ="https://img.shields.io/badge/react-282C34.svg?&style=for-the-badge&logo=react&logoColor=61DAFB"/> https://img.shields.io/badge/redux-redux-red <img alt="Styled Components" src ="https://img.shields.io/badge/styled components-282C34.svg?&style=for-the-badge&logo=styledcomponents&logoColor=DB7093"/> 
+<br/>
+<br/>
 
+## 프로젝트 링크
+https://react-to-do-list-alpha.vercel.app/
+
+<br/>
+<br/>
 
 ## 🗂 디렉토리 구조
 ```
@@ -42,7 +48,7 @@
  ┣ 📜index.js
  ┗ 📜setupTests.js
  ```
-
+ 
 <br/>
 <br/>
 
