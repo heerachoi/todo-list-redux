@@ -72,7 +72,6 @@ export const DeleteButton = styled.button`
   &:hover {
     background: #fff;
   }
-  /* font-weight: 600; */
 `;
 
 export const DoneButton = styled.button`
@@ -82,7 +81,6 @@ export const DoneButton = styled.button`
   border-radius: 15px;
   font-size: 14px;
   cursor: pointer;
-  /* font-weight: 600; */
   width: 60px;
   &:hover {
     background: #fff;
